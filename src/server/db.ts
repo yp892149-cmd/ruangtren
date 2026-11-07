@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { Article, Category, StaticPage, SiteSettings, AdsConfig, TrendingTopic } from '../types/index.ts';
+import type { Article, Category, StaticPage, SiteSettings, AdsConfig, TrendingTopic } from '../types/index.ts';
 
 interface DatabaseSchema {
   articles: Article[];
